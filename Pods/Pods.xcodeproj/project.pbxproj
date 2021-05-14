@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,6 +30,7 @@
 		128376A37733CDCD9870A39DE261904E /* UISearchController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1481F8B389236AF64C742A3B63EA0 /* UISearchController+Rx.swift */; };
 		12E8D9F9C1A9B4FC7669C18954BC4798 /* ControlEvent+Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B650B5CA6A470DC56A4C3266B1B0995B /* ControlEvent+Driver.swift */; };
 		1368A790D581005BE64F07709CCECCD7 /* Never.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22919BC40132654D3B123F0FB0C3C8CE /* Never.swift */; };
+		152198B616C8AE0D508FB9919F543299 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1D3F9299382551BA0C892AEEE2E4CB /* Foundation.framework */; };
 		156DE0498C635E2A99837A41D90F5685 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF707847EA108352E593D9ADA371FD /* Observable.swift */; };
 		16C263170733039596369C8D4F89077A /* InfiniteSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10EFD0C34F7D55055BFDF5B0626294 /* InfiniteSequence.swift */; };
 		1C347916AF534E1E812E1B7A6521F8D5 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F5CAC3DFDC297B2C56D647BF7C7813 /* RxSwift.framework */; };
@@ -44,7 +45,6 @@
 		232C483C3132E5A7A2383975411FFB25 /* ShareReplayScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341FA96B4BFD43FC4747E849C7FDDC08 /* ShareReplayScope.swift */; };
 		23CF55A9FA514BDCA0B46320D4ED5DEC /* RxCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68247B555DF169515B4A3AE160275A /* RxCocoa.swift */; };
 		24E70D72FBF45013621999798BD4BDC0 /* AsMaybe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5647487C2C336A46B3E32E16383F5E18 /* AsMaybe.swift */; };
-		25AD9566F0C91C911DDD0797EC64E392 /* Pods-ShoppingCartTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0FFB91B6F52C8DE8C944A706B9A2EA /* Pods-ShoppingCartTests-dummy.m */; };
 		26900F59621365F9EF08DB37C7E07C06 /* RxScrollViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A806B672BDCE1CBC4A47B1BE283A4D4 /* RxScrollViewDelegateProxy.swift */; };
 		26BA9D55B3D6BB46B8C714201796949E /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B47CDC393445540B09F93E8988C093D /* Empty.swift */; };
 		26DF8FD18ABF605B9A0ED6C8CCB15AD0 /* RecursiveLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E6DE53045E03BAB8FDA8AEE17B4264 /* RecursiveLock.swift */; };
@@ -70,7 +70,6 @@
 		37D56CA3089A507A876D07427F28D09F /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B23BEEC7E36BDC5F1A6C7FDFE046C7 /* Disposable.swift */; };
 		38A45D6FD7DCA41AC0C9CD58EDBB57CB /* UITextView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4E3B5CA8F9ADEE275139E5FA1A5AB2 /* UITextView+Rx.swift */; };
 		39988540E9F936FE5085117BB8F32FAC /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4968FB9B189A49B61F91C9647D5BECA /* PriorityQueue.swift */; };
-		39E8A23C924756181D541CFC9F20653F /* Pods-ShoppingCart-ShoppingCartUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAB4A831567326A500279AA0D75FB7D /* Pods-ShoppingCart-ShoppingCartUITests-dummy.m */; };
 		3AD634C378F3164B2BBC4A1B99C96CFE /* InfiniteSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B62507CA3B04BDEF894DCA3BC5D521F /* InfiniteSequence.swift */; };
 		3B8937A746CE42838958E3A9AC09F844 /* Infallible+Zip+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBD8C71F532635155B226351AC8D786 /* Infallible+Zip+arity.swift */; };
 		3D7D1CBDE7C8BB82BA94D00473F88934 /* SkipUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7243EDF55BBCA64A37BAB1E512102 /* SkipUntil.swift */; };
@@ -106,8 +105,8 @@
 		4F5C36C0D198FF1EF67FF265AFECDFBA /* ScheduledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE164662A88FF5C30EB9CB7CC0AE0F0 /* ScheduledItem.swift */; };
 		51B830516D57359FAB42031193E47CB1 /* RxCollectionViewDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A217EC9A010DF042B633915DD43D1B /* RxCollectionViewDataSourceType.swift */; };
 		539D5D5EBEAA32AA39BC554B44408DBE /* ObserverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E7820017D7B30F3C5C9BE5B27CE09 /* ObserverType.swift */; };
-		5585BE94DA8ED56E174D33FF5F3ECBD0 /* Pods-ShoppingCart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4214422B86A9062589DD2A7DE8D1A236 /* Pods-ShoppingCart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56108ED54EA8A819F829BD8EBC8F629D /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F242ECF3A633CD8A5EE624C50D73C867 /* Delay.swift */; };
+		568E836A8D055736945CA50E7863F146 /* Pods-ShoppingCart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4321F9C4F240ED21912D3043C17451AA /* Pods-ShoppingCart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		578C85E302303F53644EFB80EDC990E6 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C859B811F9A9861759A0793B2F212 /* Filter.swift */; };
 		58D3BBBF801B54CC74FAAC0374F1948D /* NSTextStorage+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263A120BF91C91402BDD8E12B5DE063 /* NSTextStorage+Rx.swift */; };
 		592D95F4EC9700D68788E53CF4438171 /* SynchronizedUnsubscribeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AAF5A7BE7B09AF56274BC8662C154B /* SynchronizedUnsubscribeType.swift */; };
@@ -135,12 +134,11 @@
 		6BDF6DD0C73F197EC93643F477997B40 /* UISearchBar+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFF320A5DD3C338D40966ED2BF7A9F /* UISearchBar+Rx.swift */; };
 		6C1064F34CFE15C3DB0E923D9D170E0C /* UIBarButtonItem+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCB8A20AD13F00ADF73587CD34E94A /* UIBarButtonItem+Rx.swift */; };
 		6CD3A3F8ABC5FCE23D15CE6823840010 /* RxTabBarControllerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC3BCC939DFC7C41068352DD6CF980 /* RxTabBarControllerDelegateProxy.swift */; };
+		6CD76B34A416F89FC3A520B3D494909F /* Pods-ShoppingCart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0522EB3B21C912B8B0B0343A27D9B8 /* Pods-ShoppingCart-dummy.m */; };
 		6DC19E5331ED6A703067CE7EE513097F /* SynchronizedDisposeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DD196B2A8FB914574F056062041A09 /* SynchronizedDisposeType.swift */; };
-		6E7401AA995034C7A7A229CE8BBC5828 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1D3F9299382551BA0C892AEEE2E4CB /* Foundation.framework */; };
 		6E78955514467B4B719BC02E393DDC29 /* TakeWithPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BEFBB6258457104D71FF776A37D723 /* TakeWithPredicate.swift */; };
 		70359E1C7BAA76860EA35A607CCC4309 /* DelegateProxyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2018B47D34674C1043FAE288A5F9080 /* DelegateProxyType.swift */; };
 		71773AF13D2141D7756DFE616735D96B /* VirtualTimeScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF62C081974A2AD4C37D07256A428FEB /* VirtualTimeScheduler.swift */; };
-		71B0EC572A2D4D77CB9C4B6D6A75E652 /* Pods-ShoppingCart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F448E53F847098111C19660421DDC05D /* Pods-ShoppingCart-dummy.m */; };
 		71D7D55C0EF8C8EDCA7ADEF45CECF8F2 /* Zip+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7709A6EF1F75A27022A405F3F1E5E1E /* Zip+Collection.swift */; };
 		725C9006BFBFAA305B86A1C26F04A1D2 /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AEBA1AAF1F2AE32BE5682E93ABD7FF /* Platform.Darwin.swift */; };
 		737797B2F42FEA112E50F1CAE7278683 /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = C046991B78851B17D5368056AF4E7114 /* Just.swift */; };
@@ -166,7 +164,6 @@
 		83C1F05415C3D47E3047C1D2D3527BCF /* ToArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF996B6EC3C4C2F5D7112231CE2FCFB /* ToArray.swift */; };
 		844134211AB7B26FACFFF74B58B81C02 /* UIButton+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385D239B87C4CECAA9EC64D9C607568E /* UIButton+Rx.swift */; };
 		85CD565FB8198B084806FE075B268AB5 /* NSObject+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C7E938215601396F50D384F0FA275 /* NSObject+Rx.swift */; };
-		86085C6BDD0A154B9F7EA2B1D413700D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1D3F9299382551BA0C892AEEE2E4CB /* Foundation.framework */; };
 		8654ADC6C639E67178704BB303566881 /* CompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6777835CEAE72EFCCA0BC130D5AB6B0 /* CompactMap.swift */; };
 		86CD245A4C4D4875DE8ECE9E118FC7A1 /* DispatchQueueConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB9029E9C2D592F6EABD591DAA0107 /* DispatchQueueConfiguration.swift */; };
 		872E07F59296D07A405BAB9C36936AC8 /* DelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA54A30ABF5C25D4D70AD26F1C747EB /* DelegateProxy.swift */; };
@@ -198,7 +195,6 @@
 		9AED9CC80ED0AB84A38DCCB049D7ADED /* RxSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30D1BC9B78B1E818D8CE6E24CD10EEAE /* RxSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C689A153227E4F97A424216AA2B6DC5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A561AB250532F5B00BA810FBDE22A81 /* Event.swift */; };
 		9D05E77AB8415BB11EC5C5FB6FD62276 /* UITextField+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE47B5ECE7E7C8F78556A9E6F6B331 /* UITextField+Rx.swift */; };
-		9E7CA70F582F433399E4BC6A00FBFD69 /* Pods-ShoppingCartTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7645853B1396BC989CEDF219F01E254 /* Pods-ShoppingCartTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E9A7DA26421695F48AA96DA35B813B4 /* RxTableViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53186F1D0DDDD8D3F8B853148B8476AE /* RxTableViewDelegateProxy.swift */; };
 		A0C7DF4229DA3DF825463F9D49256D4F /* BinaryDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB97CD8870DAE0BDA374525CBA81042 /* BinaryDisposable.swift */; };
 		A1CB4107AB9FDEC58E3A7C0C14B4AB79 /* UIDatePicker+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2038BEA410AEFC1B9297DE02637EAF68 /* UIDatePicker+Rx.swift */; };
@@ -250,10 +246,13 @@
 		C0E1B20534F498B9891E956388D79209 /* NSView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D12E560B84D7E24947223910EBD47E /* NSView+Rx.swift */; };
 		C114FCE032B416542F0D80C57E92279A /* Infallible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5303B6F6500F1837C58A15DA319E083D /* Infallible.swift */; };
 		C133AE2E3DBDCD168B2992E92585E7B8 /* ConcurrentMainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC1D26DCD23026DE8C49043DABD6E00 /* ConcurrentMainScheduler.swift */; };
+		C1C139B176E654621A9E0F13F9985F01 /* Pods-ShoppingCartTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD5B3EAD975968BADCFB8F126F92481 /* Pods-ShoppingCartTests-dummy.m */; };
 		C1C5ECDFAD35A162BE030471EFB64BD0 /* OperationQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975B89AF9EDFB4519255CC03D5FA6133 /* OperationQueueScheduler.swift */; };
 		C363CA57DF5F436A5F674D695FA64B86 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F5CAC3DFDC297B2C56D647BF7C7813 /* RxSwift.framework */; };
 		C3A958E0AD9579C985824EEF7B1B3F44 /* GroupedObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1013CDD884832B3F4803A7EEA2C907A9 /* GroupedObservable.swift */; };
 		C60C9B7447C5D9555611004E27093043 /* SharedSequence+Operators+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD790EB72015E37311CC5BDC6D399F8 /* SharedSequence+Operators+arity.swift */; };
+		C6CDF5B92CE95ACB883D6E204FC0375D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1D3F9299382551BA0C892AEEE2E4CB /* Foundation.framework */; };
+		C817351F3D6F3CAF5194B154D2A624A3 /* Pods-ShoppingCartTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E2D28E478E8764ABAA9926C55EDB30 /* Pods-ShoppingCartTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C83DA2E174587856EBBAAA1763F6D483 /* _RXKVOObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = B8A9BD823F0A0C90CBCC98543F141F23 /* _RXKVOObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8422B20017685DE0D693EC679FF8BF6 /* KVORepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C854D4FFD7C4D7F1E64221360391014 /* KVORepresentable.swift */; };
 		C97CCC7A8CEDD2BAC5C5BE6B2FB97F72 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CDACC0BE4B51279991A401138C9E /* Error.swift */; };
@@ -287,7 +286,6 @@
 		DE76073247081964D8DA688F13021B62 /* UISegmentedControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74BE7BB39DA75923DCBF32B5E897181 /* UISegmentedControl+Rx.swift */; };
 		DE82F7CE3E4E20600841BD9C1BE2092E /* Infallible+CombineLatest+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A84BF3922208CEE8E94D5EC753C07E3 /* Infallible+CombineLatest+arity.swift */; };
 		DEA502E66347665D3A5B3A8910040935 /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D062B7782FA29561B222C78BB64947F /* Single.swift */; };
-		E03B8B329330B42DDA7A36AB6FC6AB3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1D3F9299382551BA0C892AEEE2E4CB /* Foundation.framework */; };
 		E0AF255AB2AFA980F44645355BB7828C /* _RX.h in Headers */ = {isa = PBXBuildFile; fileRef = AD6AB4CC2DDBECE736D32AC8534EB6F8 /* _RX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0D9B2D4126F2F499BA025F4EF215500 /* Event+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747BC83851DE1DDBE0DAF558B529072 /* Event+Equatable.swift */; };
 		E1AD1FE46FE8F693F913FEC190210A59 /* RxCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EE55FD519F5E07C53BE0B1ADE51961 /* RxCocoa-dummy.m */; };
@@ -328,7 +326,6 @@
 		F186B25E38062738E07F219D0289CBFA /* ItemEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73FE505D8DEF3B9CC39875B0238ACE /* ItemEvents.swift */; };
 		F18D9B0A0AC1D78B86A40B70DFAB3A0A /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275FCC51AA46DD3A6E14525C06F11AE0 /* Debug.swift */; };
 		F2AB55CF962B7EBDE26DD970C282CEDE /* RxTableViewReactiveArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0FDEAFA8D949D9EE45647B5275F14B /* RxTableViewReactiveArrayDataSource.swift */; };
-		F330112AA7ADDC3CDA7091AB3A56F42B /* Pods-ShoppingCart-ShoppingCartUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD08D129A2C3886E4B57AE6D891C10C /* Pods-ShoppingCart-ShoppingCartUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4245D840D70735355268F29A557CDC2 /* RxRelay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5F73102F258443E994E48370B4CF52 /* RxRelay-dummy.m */; };
 		F44EF6685A8C029EAC293DE9FADC3794 /* ControlTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811CBF350752531883C0106B500C7854 /* ControlTarget.swift */; };
 		F45717BF2118BB61C328A1F67CFE9238 /* Driver+Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B3A76EE7A992746687C1096F3C6964 /* Driver+Subscription.swift */; };
@@ -347,7 +344,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0714F812ED1938E0D5F2F38FDC230885 /* PBXContainerItemProxy */ = {
+		15BAB87E072690857597300517E9ED70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F243B36381C0CE83CCFF789AC38F0D36;
+			remoteInfo = RxBlocking;
+		};
+		24CA132DBAE03853805C5EF9BDFE2DD8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -361,19 +365,19 @@
 			remoteGlobalIDString = 4622BFEF3DC16E8BD15EEFC30D4D0084;
 			remoteInfo = RxRelay;
 		};
-		4053B0790F6F8D3890AC187D81FD9C41 /* PBXContainerItemProxy */ = {
+		4555C81BED4976030D28F89B0D8D565F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4622BFEF3DC16E8BD15EEFC30D4D0084;
+			remoteInfo = RxRelay;
+		};
+		4E63F3493901C5C6FAAAFDCAAA44F0B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6;
 			remoteInfo = RxCocoa;
-		};
-		46568DC88D4059F12268157A107F11B7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F243B36381C0CE83CCFF789AC38F0D36;
-			remoteInfo = RxBlocking;
 		};
 		4EA72E441C63B74AC4C53C7B3CA4496D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -382,19 +386,19 @@
 			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
 			remoteInfo = RxSwift;
 		};
-		5573D406FEFC0FCD8184207D5828ED5D /* PBXContainerItemProxy */ = {
+		6B619208654A5D1625545DDF5D05C188 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E01604714FE1299B4E880A5A8306FB6;
-			remoteInfo = "Pods-ShoppingCart";
+			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
+			remoteInfo = RxSwift;
 		};
-		B505345090BA05E5636EBCB869108946 /* PBXContainerItemProxy */ = {
+		ACF2E19486E73318BD708CFFB54ECF71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4622BFEF3DC16E8BD15EEFC30D4D0084;
-			remoteInfo = RxRelay;
+			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
+			remoteInfo = RxSwift;
 		};
 		BED4F1D26F4D4F5018B2798CAE8F0B5E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -403,14 +407,14 @@
 			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
 			remoteInfo = RxSwift;
 		};
-		C63EA57117D2E84C652AC5942A9E969D /* PBXContainerItemProxy */ = {
+		C29916F45000D64259041292CC72A7EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
-			remoteInfo = RxSwift;
+			remoteGlobalIDString = 4E01604714FE1299B4E880A5A8306FB6;
+			remoteInfo = "Pods-ShoppingCart";
 		};
-		CEC1FD3817902B7C3233057D932D55D8 /* PBXContainerItemProxy */ = {
+		C63EA57117D2E84C652AC5942A9E969D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -424,31 +428,25 @@
 			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
 			remoteInfo = RxSwift;
 		};
-		E83918A4152BD6FA5DD8855C7169DE64 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
-			remoteInfo = RxSwift;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01169A99FE9D8F0C0CF39467EE5CAFB5 /* SchedulerType+SharedSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SchedulerType+SharedSequence.swift"; path = "RxCocoa/Traits/SharedSequence/SchedulerType+SharedSequence.swift"; sourceTree = "<group>"; };
 		01AEBA1AAF1F2AE32BE5682E93ABD7FF /* Platform.Darwin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Darwin.swift; path = Platform/Platform.Darwin.swift; sourceTree = "<group>"; };
 		01AEBD88809A6345186F0889C3EA02E0 /* GroupBy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupBy.swift; path = RxSwift/Observables/GroupBy.swift; sourceTree = "<group>"; };
-		0286804606EE1B5CDC3FE595BEEDC629 /* Pods-ShoppingCart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShoppingCart.modulemap"; sourceTree = "<group>"; };
 		031893FD3D882E436EC541DF783B1276 /* RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxTest.framework; path = RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		034D5FC18B189E9E0522675E201F15D5 /* DelaySubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelaySubscription.swift; path = RxSwift/Observables/DelaySubscription.swift; sourceTree = "<group>"; };
 		043E27FD95FE6E4C25B0373BB2853BF8 /* Merge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Merge.swift; path = RxSwift/Observables/Merge.swift; sourceTree = "<group>"; };
 		04F6E4919FF133AB4C7A2E7073544362 /* SchedulerServices+Emulation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SchedulerServices+Emulation.swift"; path = "RxSwift/Schedulers/SchedulerServices+Emulation.swift"; sourceTree = "<group>"; };
 		05D0DBCD59A5ECFFE396EBC4933C08B7 /* RxSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxSwift-Info.plist"; sourceTree = "<group>"; };
 		06FB54EB208947ABB0AFCB3480362750 /* Concat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concat.swift; path = RxSwift/Observables/Concat.swift; sourceTree = "<group>"; };
+		07A7A124E4F811921B71D65FC9081460 /* Pods-ShoppingCart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShoppingCart.debug.xcconfig"; sourceTree = "<group>"; };
 		07F77FA54253C3EDAF1AF1709CB74F0F /* SharedSequence+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SharedSequence+Operators.swift"; path = "RxCocoa/Traits/SharedSequence/SharedSequence+Operators.swift"; sourceTree = "<group>"; };
 		097B12931272FFB86AF28536C7D945B0 /* RxNavigationControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxNavigationControllerDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxNavigationControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		0AD76469CE22F2F6D53C8FDFCE882867 /* LockOwnerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockOwnerType.swift; path = RxSwift/Concurrency/LockOwnerType.swift; sourceTree = "<group>"; };
 		0AE7BD4F3B17786EA9B9701E1F56D796 /* Multicast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multicast.swift; path = RxSwift/Observables/Multicast.swift; sourceTree = "<group>"; };
 		0B485D1741674A6425877B473082B07A /* UIStepper+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStepper+Rx.swift"; path = "RxCocoa/iOS/UIStepper+Rx.swift"; sourceTree = "<group>"; };
+		0B5491C108C3C0BF3B53E0378B78BEA8 /* Pods-ShoppingCartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShoppingCartTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0DBD0E7AF592CAAA019D4E5B8479FC14 /* RxCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxCocoa-prefix.pch"; sourceTree = "<group>"; };
 		0E5AA93BA768213F5ECB3FC116199807 /* SubscriptionDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionDisposable.swift; path = RxSwift/Disposables/SubscriptionDisposable.swift; sourceTree = "<group>"; };
 		0E6554D0E928FB4360C2EC592B97270D /* SerialDispatchQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialDispatchQueueScheduler.swift; path = RxSwift/Schedulers/SerialDispatchQueueScheduler.swift; sourceTree = "<group>"; };
@@ -464,13 +462,13 @@
 		1517D5BA6FBCEF22FF4455B7131303F1 /* PriorityQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriorityQueue.swift; path = Platform/DataStructures/PriorityQueue.swift; sourceTree = "<group>"; };
 		15A9504EEF1ADEE9F14B1E77C098491C /* Reduce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reduce.swift; path = RxSwift/Observables/Reduce.swift; sourceTree = "<group>"; };
 		17B247C1E7DC3CA34AFD14F6BFB1FBE5 /* Reactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reactive.swift; path = RxSwift/Reactive.swift; sourceTree = "<group>"; };
-		1AE2749E583D929D77249C3E1E16F848 /* Pods-ShoppingCartTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShoppingCartTests-Info.plist"; sourceTree = "<group>"; };
 		1BA94D2B95FD15FD62323C97CAB911C8 /* ReplayRelay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplayRelay.swift; path = RxRelay/ReplayRelay.swift; sourceTree = "<group>"; };
 		1BCE1F37AEC3717D46472FA31ED30F84 /* Sample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sample.swift; path = RxSwift/Observables/Sample.swift; sourceTree = "<group>"; };
 		1C6BFD90613CF08855F74026D1BB9007 /* Generate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generate.swift; path = RxSwift/Observables/Generate.swift; sourceTree = "<group>"; };
 		1D4DF44B53E4F2FA4D92E04D1C13D830 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = RxSwift/SwiftSupport/SwiftSupport.swift; sourceTree = "<group>"; };
 		1D5A1881DC4AA543FBBF20219FAC2291 /* RxBlocking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxBlocking.modulemap; sourceTree = "<group>"; };
 		1D968AB69A22583E0458D07C10251F60 /* UIRefreshControl+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIRefreshControl+Rx.swift"; path = "RxCocoa/iOS/UIRefreshControl+Rx.swift"; sourceTree = "<group>"; };
+		1DD5B3EAD975968BADCFB8F126F92481 /* Pods-ShoppingCartTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShoppingCartTests-dummy.m"; sourceTree = "<group>"; };
 		1E142B4645A66EE93DAFA3B21F90E574 /* NSControl+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSControl+Rx.swift"; path = "RxCocoa/macOS/NSControl+Rx.swift"; sourceTree = "<group>"; };
 		1E550467FE7EFC02534888E8BA709680 /* RxSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxSwift.modulemap; sourceTree = "<group>"; };
 		1FB0FBA01EB32D214F0F729F13241D4C /* UIApplication+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Rx.swift"; path = "RxCocoa/iOS/UIApplication+Rx.swift"; sourceTree = "<group>"; };
@@ -478,8 +476,8 @@
 		217D6348ADA67AEACE9795BCDBEF4A6A /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = RxRelay/Utils.swift; sourceTree = "<group>"; };
 		219B1AD8B9EFE75E7F4F29F8818B9BF6 /* URLSession+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSession+Rx.swift"; path = "RxCocoa/Foundation/URLSession+Rx.swift"; sourceTree = "<group>"; };
 		21D1F2170D9C7516EE55B965D7ED817B /* Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Driver.swift; path = RxCocoa/Traits/Driver/Driver.swift; sourceTree = "<group>"; };
+		21F9A3F16822EB3BF4B95156209EE38E /* Pods-ShoppingCart-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShoppingCart-frameworks.sh"; sourceTree = "<group>"; };
 		22919BC40132654D3B123F0FB0C3C8CE /* Never.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Never.swift; path = RxSwift/Observables/Never.swift; sourceTree = "<group>"; };
-		25183E06BF34464EA6D077E84777385E /* Pods-ShoppingCart-ShoppingCartUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShoppingCart-ShoppingCartUITests-Info.plist"; sourceTree = "<group>"; };
 		25E1ED52DFFD459B10F1B950F1EBA468 /* InvocableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvocableType.swift; path = RxSwift/Schedulers/Internal/InvocableType.swift; sourceTree = "<group>"; };
 		25E510DA5EECE456B31A236D490BFC80 /* Any+Equatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Any+Equatable.swift"; path = "RxTest/Any+Equatable.swift"; sourceTree = "<group>"; };
 		25F63A531105CD4E1E4CCF5B918C5494 /* RxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxBlocking.framework; path = RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -491,11 +489,8 @@
 		2AC35C273D3694A04CE05372A74AD9E1 /* Signal+Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Signal+Subscription.swift"; path = "RxCocoa/Traits/Signal/Signal+Subscription.swift"; sourceTree = "<group>"; };
 		2B28FC6F1A1866A0657F234B75D25EF8 /* Decode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decode.swift; path = RxSwift/Observables/Decode.swift; sourceTree = "<group>"; };
 		2C8B1414D92BD6435D592CB1528E85C5 /* KVORepresentable+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "KVORepresentable+Swift.swift"; path = "RxCocoa/Foundation/KVORepresentable+Swift.swift"; sourceTree = "<group>"; };
-		2DD3AC2AFFFD5674221DAD3AD49A37ED /* Pods-ShoppingCartTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShoppingCartTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2DF554C31CEDD92873CCBACE8DCF25F9 /* AsyncSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncSubject.swift; path = RxSwift/Subjects/AsyncSubject.swift; sourceTree = "<group>"; };
 		2EC33F949C502CE519FA187610D0DEA8 /* RxPickerViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxPickerViewDataSourceProxy.swift; path = RxCocoa/iOS/Proxies/RxPickerViewDataSourceProxy.swift; sourceTree = "<group>"; };
-		2FAB4A831567326A500279AA0D75FB7D /* Pods-ShoppingCart-ShoppingCartUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShoppingCart-ShoppingCartUITests-dummy.m"; sourceTree = "<group>"; };
-		307D10AB985C9297F6F17D81075025D8 /* Pods-ShoppingCart-ShoppingCartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShoppingCart-ShoppingCartUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		30D1BC9B78B1E818D8CE6E24CD10EEAE /* RxSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSwift-umbrella.h"; sourceTree = "<group>"; };
 		30FE50A507EC93D5ACB22C7E66B5977D /* Platform.Darwin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Darwin.swift; path = Platform/Platform.Darwin.swift; sourceTree = "<group>"; };
 		32969231EE859764666A07D017E03A20 /* ObservableConvertibleType+Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableConvertibleType+Signal.swift"; path = "RxCocoa/Traits/Signal/ObservableConvertibleType+Signal.swift"; sourceTree = "<group>"; };
@@ -509,12 +504,14 @@
 		36FEE3298F46AE9D080CE611116BE189 /* RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxSwift.release.xcconfig; sourceTree = "<group>"; };
 		38445D5C1EF41C973EB2AFF9F3CA3FA0 /* Materialize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Materialize.swift; path = RxSwift/Observables/Materialize.swift; sourceTree = "<group>"; };
 		385D239B87C4CECAA9EC64D9C607568E /* UIButton+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Rx.swift"; path = "RxCocoa/iOS/UIButton+Rx.swift"; sourceTree = "<group>"; };
+		38E2D28E478E8764ABAA9926C55EDB30 /* Pods-ShoppingCartTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShoppingCartTests-umbrella.h"; sourceTree = "<group>"; };
 		395D3FC904B1767B7D45CF2242943533 /* PublishSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PublishSubject.swift; path = RxSwift/Subjects/PublishSubject.swift; sourceTree = "<group>"; };
 		396788E81EA72C0A0F8A39E5BFA74E93 /* UINavigationController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationController+Rx.swift"; path = "RxCocoa/iOS/UINavigationController+Rx.swift"; sourceTree = "<group>"; };
 		39F33D4439C89CCA67612B05B915DE30 /* Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = RxSwift/Observables/Sequence.swift; sourceTree = "<group>"; };
 		3A561AB250532F5B00BA810FBDE22A81 /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = RxSwift/Event.swift; sourceTree = "<group>"; };
 		3ADCE94908ECC8581E49DAA42CA581C2 /* ObserveOn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserveOn.swift; path = RxSwift/Observables/ObserveOn.swift; sourceTree = "<group>"; };
 		3B3199C95BCF290590640EFED06D64FB /* Platform.Linux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Linux.swift; path = Platform/Platform.Linux.swift; sourceTree = "<group>"; };
+		3BEB9DCC6772BA794E82DA9106306F9D /* Pods-ShoppingCartTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShoppingCartTests.modulemap"; sourceTree = "<group>"; };
 		3C58DA1BFD5D4A54306D8F3C95972819 /* AddRef.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AddRef.swift; path = RxSwift/Observables/AddRef.swift; sourceTree = "<group>"; };
 		3C87AE7D7547C79B2BEF40B25792C084 /* UIActivityIndicatorView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIActivityIndicatorView+Rx.swift"; path = "RxCocoa/iOS/UIActivityIndicatorView+Rx.swift"; sourceTree = "<group>"; };
 		3D31BBAF6ABB8420CD65980BF2D4B76D /* SynchronizedOnType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedOnType.swift; path = RxSwift/Concurrency/SynchronizedOnType.swift; sourceTree = "<group>"; };
@@ -526,21 +523,17 @@
 		4047B3C15C3BAC73830625288613FF42 /* NSSlider+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSSlider+Rx.swift"; path = "RxCocoa/macOS/NSSlider+Rx.swift"; sourceTree = "<group>"; };
 		406F2404E25FB66C8B25CB82C8CBE41D /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = RxSwift/Observables/Optional.swift; sourceTree = "<group>"; };
 		407BFAA05B9C360B819FA1F227CE8390 /* DefaultIfEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultIfEmpty.swift; path = RxSwift/Observables/DefaultIfEmpty.swift; sourceTree = "<group>"; };
-		409C3AAAA2EE30F7E6C358F267E2F961 /* Pods-ShoppingCart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShoppingCart-Info.plist"; sourceTree = "<group>"; };
 		40F70E99A41BAD1D2C4D301304A4C6C5 /* Platform.Linux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Linux.swift; path = Platform/Platform.Linux.swift; sourceTree = "<group>"; };
-		4214422B86A9062589DD2A7DE8D1A236 /* Pods-ShoppingCart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShoppingCart-umbrella.h"; sourceTree = "<group>"; };
 		421F54B93F7151D53CFCBD42FF29FEBD /* RxTableViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewDataSourceProxy.swift; path = RxCocoa/iOS/Proxies/RxTableViewDataSourceProxy.swift; sourceTree = "<group>"; };
-		43D48D0B5EED7E2115206B67768F8CE6 /* Pods-ShoppingCart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShoppingCart.debug.xcconfig"; sourceTree = "<group>"; };
+		4321F9C4F240ED21912D3043C17451AA /* Pods-ShoppingCart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShoppingCart-umbrella.h"; sourceTree = "<group>"; };
 		44B23BEEC7E36BDC5F1A6C7FDFE046C7 /* Disposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposable.swift; path = RxSwift/Disposable.swift; sourceTree = "<group>"; };
 		44EE55FD519F5E07C53BE0B1ADE51961 /* RxCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxCocoa-dummy.m"; sourceTree = "<group>"; };
 		46052DBA67DEBD2ACE9403A514F3E4BA /* StartWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StartWith.swift; path = RxSwift/Observables/StartWith.swift; sourceTree = "<group>"; };
 		46A1A27E81068AD9A94646965BF9B19F /* SwitchIfEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchIfEmpty.swift; path = RxSwift/Observables/SwitchIfEmpty.swift; sourceTree = "<group>"; };
-		46AA6739C0D673B31AA328905EB774FE /* Pods-ShoppingCartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShoppingCartTests.release.xcconfig"; sourceTree = "<group>"; };
 		473317FA0A19F0FB5B0DD78B50C978FE /* SerialDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialDisposable.swift; path = RxSwift/Disposables/SerialDisposable.swift; sourceTree = "<group>"; };
-		476A67C75CE46F67569ABCF680974CA5 /* Pods-ShoppingCartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShoppingCartTests.debug.xcconfig"; sourceTree = "<group>"; };
 		47906ED68E39D288E9C74ED24D432E89 /* RxBlocking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxBlocking-umbrella.h"; sourceTree = "<group>"; };
-		47D463E70F995288F7FEEFAB207F0EE6 /* Pods-ShoppingCart-ShoppingCartUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShoppingCart-ShoppingCartUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		47ECB25BC0E20F3BE3C093AF4A5E30C6 /* RecursiveScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveScheduler.swift; path = RxSwift/Schedulers/RecursiveScheduler.swift; sourceTree = "<group>"; };
+		4888105BF3F5C79A8701675C5D416AF8 /* Pods-ShoppingCartTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShoppingCartTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		48AFF320A5DD3C338D40966ED2BF7A9F /* UISearchBar+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISearchBar+Rx.swift"; path = "RxCocoa/iOS/UISearchBar+Rx.swift"; sourceTree = "<group>"; };
 		49CB8B8ABE3EF66062FB1FDD4A7A21F3 /* InvocableScheduledItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvocableScheduledItem.swift; path = RxSwift/Schedulers/Internal/InvocableScheduledItem.swift; sourceTree = "<group>"; };
 		4AA663667396CE5C67E0A36108A6A7D5 /* RxCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxCocoa.debug.xcconfig; sourceTree = "<group>"; };
@@ -555,6 +548,7 @@
 		4F675E3B1C32783B623C1E4AB99FBC87 /* RxTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxTest-Info.plist"; sourceTree = "<group>"; };
 		50BEFBB6258457104D71FF776A37D723 /* TakeWithPredicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeWithPredicate.swift; path = RxSwift/Observables/TakeWithPredicate.swift; sourceTree = "<group>"; };
 		50C47226F71BB9ECAEAF11701E097249 /* Platform.Linux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Linux.swift; path = Platform/Platform.Linux.swift; sourceTree = "<group>"; };
+		517FDDC5E3A8DC3415B92B10B7B0C690 /* Pods-ShoppingCart-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShoppingCart-acknowledgements.markdown"; sourceTree = "<group>"; };
 		51B8DC27D0F669513B1C08C460CD923A /* Bag+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bag+Rx.swift"; path = "RxSwift/Extensions/Bag+Rx.swift"; sourceTree = "<group>"; };
 		525F3E8F7DFBA0DF2267CC0AA7CEC37D /* UITabBar+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBar+Rx.swift"; path = "RxCocoa/iOS/UITabBar+Rx.swift"; sourceTree = "<group>"; };
 		52EC8F6A23F86BD874869DFE39A39F3C /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = Platform/DataStructures/Queue.swift; sourceTree = "<group>"; };
@@ -566,7 +560,9 @@
 		56E0D8893085DD2E72C53D5B3051CFAC /* SchedulerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchedulerType.swift; path = RxSwift/SchedulerType.swift; sourceTree = "<group>"; };
 		5968566F6E4A1F17D3E0DE64520AC671 /* PublishRelay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PublishRelay.swift; path = RxRelay/PublishRelay.swift; sourceTree = "<group>"; };
 		599C03635AE06ACA7FED72A3AAD417BD /* Completable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Completable.swift; path = RxSwift/Traits/PrimitiveSequence/Completable.swift; sourceTree = "<group>"; };
+		5A0522EB3B21C912B8B0B0343A27D9B8 /* Pods-ShoppingCart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShoppingCart-dummy.m"; sourceTree = "<group>"; };
 		5BF996B6EC3C4C2F5D7112231CE2FCFB /* ToArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToArray.swift; path = RxSwift/Observables/ToArray.swift; sourceTree = "<group>"; };
+		5C35ACF9592FAF160BD1051DB4DB1E19 /* Pods-ShoppingCartTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShoppingCartTests-frameworks.sh"; sourceTree = "<group>"; };
 		5C854D4FFD7C4D7F1E64221360391014 /* KVORepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVORepresentable.swift; path = RxCocoa/Foundation/KVORepresentable.swift; sourceTree = "<group>"; };
 		5DBA6989F8D6F53620E7E109BFD505E6 /* InfiniteSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteSequence.swift; path = Platform/DataStructures/InfiniteSequence.swift; sourceTree = "<group>"; };
 		5E4E187A4A6FA77DF57FDB8752A7D34F /* RecursiveLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveLock.swift; path = Platform/RecursiveLock.swift; sourceTree = "<group>"; };
@@ -579,7 +575,6 @@
 		62BD464C483BEFCD8B161BB7B25EBEF5 /* RxTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTest.swift; path = RxTest/RxTest.swift; sourceTree = "<group>"; };
 		631D6C407964C7536E3330A14B3DCF2A /* RxBlocking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxBlocking.release.xcconfig; sourceTree = "<group>"; };
 		6361B68ABC579B45D32E4A0404908944 /* RxRelay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxRelay.release.xcconfig; sourceTree = "<group>"; };
-		644991957AA78199DE236923DF58BD62 /* Pods-ShoppingCart-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShoppingCart-acknowledgements.plist"; sourceTree = "<group>"; };
 		649E7820017D7B30F3C5C9BE5B27CE09 /* ObserverType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverType.swift; path = RxSwift/ObserverType.swift; sourceTree = "<group>"; };
 		64D522034448E89812E292BE36271740 /* ObservableConvertibleType+Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableConvertibleType+Driver.swift"; path = "RxCocoa/Traits/Driver/ObservableConvertibleType+Driver.swift"; sourceTree = "<group>"; };
 		65118A38DAAEEA22C21BB0EBECE6CDCC /* ConcurrentDispatchQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcurrentDispatchQueueScheduler.swift; path = RxSwift/Schedulers/ConcurrentDispatchQueueScheduler.swift; sourceTree = "<group>"; };
@@ -595,9 +590,7 @@
 		6A806B672BDCE1CBC4A47B1BE283A4D4 /* RxScrollViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxScrollViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxScrollViewDelegateProxy.swift; sourceTree = "<group>"; };
 		6DD790EB72015E37311CC5BDC6D399F8 /* SharedSequence+Operators+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SharedSequence+Operators+arity.swift"; path = "RxCocoa/Traits/SharedSequence/SharedSequence+Operators+arity.swift"; sourceTree = "<group>"; };
 		6DEA7B9991D52B678AD4BE6CE4A624AA /* UISlider+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISlider+Rx.swift"; path = "RxCocoa/iOS/UISlider+Rx.swift"; sourceTree = "<group>"; };
-		6E0FFB91B6F52C8DE8C944A706B9A2EA /* Pods-ShoppingCartTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShoppingCartTests-dummy.m"; sourceTree = "<group>"; };
 		6F23AE6E7EDF00EB5E79341079721646 /* RxBlocking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxBlocking.debug.xcconfig; sourceTree = "<group>"; };
-		70AFEFB27AF69E9A4DFBECF4A49B2202 /* Pods-ShoppingCartTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShoppingCartTests-frameworks.sh"; sourceTree = "<group>"; };
 		71ABAF65DDE8455D79BE01A23641ED4C /* NotificationCenter+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NotificationCenter+Rx.swift"; path = "RxCocoa/Foundation/NotificationCenter+Rx.swift"; sourceTree = "<group>"; };
 		71AE47B5ECE7E7C8F78556A9E6F6B331 /* UITextField+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Rx.swift"; path = "RxCocoa/iOS/UITextField+Rx.swift"; sourceTree = "<group>"; };
 		7205B935282DF56CF31444111D5573A1 /* SubscribeOn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscribeOn.swift; path = RxSwift/Observables/SubscribeOn.swift; sourceTree = "<group>"; };
@@ -609,17 +602,17 @@
 		74F9456037BBBF2660BCD6094316CDF9 /* NopDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NopDisposable.swift; path = RxSwift/Disposables/NopDisposable.swift; sourceTree = "<group>"; };
 		761B2B9EB70B4715FB1A765420FDB94E /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = Platform/DataStructures/Queue.swift; sourceTree = "<group>"; };
 		77634449E34613B5825A5B71B82191B8 /* Range.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Range.swift; path = RxSwift/Observables/Range.swift; sourceTree = "<group>"; };
-		779757CD4C42827F675E13E52B5A1C4C /* Pods-ShoppingCart-ShoppingCartUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShoppingCart-ShoppingCartUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		78C980F33B381C02278F991F6CCF34EE /* RxTabBarDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTabBarDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTabBarDelegateProxy.swift; sourceTree = "<group>"; };
-		7917BC39A8D4CC2DF16B1D5CBCEECBB7 /* Pods-ShoppingCart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShoppingCart.release.xcconfig"; sourceTree = "<group>"; };
 		79EA46065AF0D99D78B6471B24D1D113 /* SubjectType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubjectType.swift; path = RxSwift/Subjects/SubjectType.swift; sourceTree = "<group>"; };
 		7B47CDC393445540B09F93E8988C093D /* Empty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Empty.swift; path = RxSwift/Observables/Empty.swift; sourceTree = "<group>"; };
 		7B623776302801D90B8398258F4B3D1D /* RxCollectionViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewDataSourceProxy.swift; path = RxCocoa/iOS/Proxies/RxCollectionViewDataSourceProxy.swift; sourceTree = "<group>"; };
 		7B92294EF3098354690A4D47AA7F06B7 /* Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lock.swift; path = RxSwift/Concurrency/Lock.swift; sourceTree = "<group>"; };
+		7BAA1067A06E4242169F155D5CF1E713 /* Pods-ShoppingCartTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShoppingCartTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7BD8441505B29314A9BE9C97BC5576D6 /* _RXObjCRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _RXObjCRuntime.h; path = RxCocoa/Runtime/include/_RXObjCRuntime.h; sourceTree = "<group>"; };
 		7C934B5A19F6A9022F5C4D20A9112C81 /* RxCollectionViewDataSourcePrefetchingProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewDataSourcePrefetchingProxy.swift; path = RxCocoa/iOS/Proxies/RxCollectionViewDataSourcePrefetchingProxy.swift; sourceTree = "<group>"; };
 		7D2003061E55B7D3CC5FE6666101A5AD /* Buffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Buffer.swift; path = RxSwift/Observables/Buffer.swift; sourceTree = "<group>"; };
 		7DC1D26DCD23026DE8C49043DABD6E00 /* ConcurrentMainScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcurrentMainScheduler.swift; path = RxSwift/Schedulers/ConcurrentMainScheduler.swift; sourceTree = "<group>"; };
+		7E7FAFC154F2233997C25D89AD8B32ED /* Pods-ShoppingCart-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShoppingCart-acknowledgements.plist"; sourceTree = "<group>"; };
 		7EA54A30ABF5C25D4D70AD26F1C747EB /* DelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxy.swift; path = RxCocoa/Common/DelegateProxy.swift; sourceTree = "<group>"; };
 		7F1FFA1ACA8BC01FE68CF41B8B4DA58A /* Observable+Bind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Observable+Bind.swift"; path = "RxCocoa/Common/Observable+Bind.swift"; sourceTree = "<group>"; };
 		809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSwift.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -655,7 +648,6 @@
 		9263A120BF91C91402BDD8E12B5DE063 /* NSTextStorage+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextStorage+Rx.swift"; path = "RxCocoa/iOS/NSTextStorage+Rx.swift"; sourceTree = "<group>"; };
 		937BB757C902A90AB0C3836D4B9BF409 /* ScheduledItemType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledItemType.swift; path = RxSwift/Schedulers/Internal/ScheduledItemType.swift; sourceTree = "<group>"; };
 		93F15ADD2E7D6213BF1623979D7F2D67 /* RxCollectionViewReactiveArrayDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewReactiveArrayDataSource.swift; path = RxCocoa/iOS/DataSources/RxCollectionViewReactiveArrayDataSource.swift; sourceTree = "<group>"; };
-		94534AA296EA568E45C88BEE13A35DC1 /* Pods-ShoppingCartTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShoppingCartTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		95610ED7329011524E1751ED19090956 /* Cancelable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cancelable.swift; path = RxSwift/Cancelable.swift; sourceTree = "<group>"; };
 		9639939A88C6F4207B6C78638D96C8AA /* BooleanDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BooleanDisposable.swift; path = RxSwift/Disposables/BooleanDisposable.swift; sourceTree = "<group>"; };
 		96996270537E0988C03CCB5FCDF9D5E9 /* RxTableViewDataSourceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewDataSourceType.swift; path = RxCocoa/iOS/Protocols/RxTableViewDataSourceType.swift; sourceTree = "<group>"; };
@@ -672,7 +664,9 @@
 		9A84BF3922208CEE8E94D5EC753C07E3 /* Infallible+CombineLatest+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Infallible+CombineLatest+arity.swift"; path = "RxSwift/Traits/Infallible/Infallible+CombineLatest+arity.swift"; sourceTree = "<group>"; };
 		9B62507CA3B04BDEF894DCA3BC5D521F /* InfiniteSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteSequence.swift; path = Platform/DataStructures/InfiniteSequence.swift; sourceTree = "<group>"; };
 		9B68247B555DF169515B4A3AE160275A /* RxCocoa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCocoa.swift; path = RxCocoa/RxCocoa.swift; sourceTree = "<group>"; };
+		9CCEEBD1B2C38EF7385546CA1E495604 /* Pods-ShoppingCartTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShoppingCartTests-Info.plist"; sourceTree = "<group>"; };
 		9D062B7782FA29561B222C78BB64947F /* Single.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Single.swift; path = RxSwift/Traits/PrimitiveSequence/Single.swift; sourceTree = "<group>"; };
+		9D38C6253254CE99F8870262AAE946F0 /* Pods-ShoppingCart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShoppingCart-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DED344CBB373E3660E11DC68A4B9766 /* ColdObservable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColdObservable.swift; path = RxTest/ColdObservable.swift; sourceTree = "<group>"; };
 		A0759F4A63700E4EB7FCADF912DF2AD3 /* XCTest+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCTest+Rx.swift"; path = "RxTest/XCTest+Rx.swift"; sourceTree = "<group>"; };
@@ -681,6 +675,7 @@
 		A1A55F898DA87618C81C748C4D9DAB29 /* WKWebView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKWebView+Rx.swift"; path = "RxCocoa/iOS/WKWebView+Rx.swift"; sourceTree = "<group>"; };
 		A2018B47D34674C1043FAE288A5F9080 /* DelegateProxyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxyType.swift; path = RxCocoa/Common/DelegateProxyType.swift; sourceTree = "<group>"; };
 		A22681AE24F18FF949D9D176E91AB2C4 /* ControlEvent+Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ControlEvent+Signal.swift"; path = "RxCocoa/Traits/Signal/ControlEvent+Signal.swift"; sourceTree = "<group>"; };
+		A292FD587500331306BBEF08A715BA0C /* Pods-ShoppingCart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShoppingCart.modulemap"; sourceTree = "<group>"; };
 		A2B70C6ECA79B5DC16195C13953A39E8 /* RxTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxTest-umbrella.h"; sourceTree = "<group>"; };
 		A4F5B2AD4A657257A7D7439854050BDB /* ObservableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableType.swift; path = RxSwift/ObservableType.swift; sourceTree = "<group>"; };
 		A541EA76723B1D6D0CDF0C181C00E75B /* RetryWhen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryWhen.swift; path = RxSwift/Observables/RetryWhen.swift; sourceTree = "<group>"; };
@@ -702,7 +697,6 @@
 		ACC254D626017C8028E5C6541A00F68B /* Catch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Catch.swift; path = RxSwift/Observables/Catch.swift; sourceTree = "<group>"; };
 		ACEC3BCC939DFC7C41068352DD6CF980 /* RxTabBarControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTabBarControllerDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTabBarControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		AD6AB4CC2DDBECE736D32AC8534EB6F8 /* _RX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _RX.h; path = RxCocoa/Runtime/include/_RX.h; sourceTree = "<group>"; };
-		AE385E5AA076F413EE780A1E4D716F15 /* Pods-ShoppingCart-ShoppingCartUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShoppingCart-ShoppingCartUITests.modulemap"; sourceTree = "<group>"; };
 		AF62C081974A2AD4C37D07256A428FEB /* VirtualTimeScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VirtualTimeScheduler.swift; path = RxSwift/Schedulers/VirtualTimeScheduler.swift; sourceTree = "<group>"; };
 		B0A1767771FCCBF5BB0377E41E25D1DC /* RxBlocking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxBlocking-Info.plist"; sourceTree = "<group>"; };
 		B0E76E8D3E58014A4207EDAB6FE5FCCC /* Debounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debounce.swift; path = RxSwift/Observables/Debounce.swift; sourceTree = "<group>"; };
@@ -718,8 +712,6 @@
 		B5B294D774997B4CE81BE37F72CD1381 /* Switch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Switch.swift; path = RxSwift/Observables/Switch.swift; sourceTree = "<group>"; };
 		B650B5CA6A470DC56A4C3266B1B0995B /* ControlEvent+Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ControlEvent+Driver.swift"; path = "RxCocoa/Traits/Driver/ControlEvent+Driver.swift"; sourceTree = "<group>"; };
 		B67B8C8D6E610216C0A05F71D0D1C0EF /* InfiniteSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteSequence.swift; path = Platform/DataStructures/InfiniteSequence.swift; sourceTree = "<group>"; };
-		B75AE2D9E2AF9F946BA4C4F2D253F4EA /* Pods-ShoppingCart-ShoppingCartUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShoppingCart-ShoppingCartUITests-frameworks.sh"; sourceTree = "<group>"; };
-		B7645853B1396BC989CEDF219F01E254 /* Pods-ShoppingCartTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShoppingCartTests-umbrella.h"; sourceTree = "<group>"; };
 		B8A9BD823F0A0C90CBCC98543F141F23 /* _RXKVOObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _RXKVOObserver.h; path = RxCocoa/Runtime/include/_RXKVOObserver.h; sourceTree = "<group>"; };
 		B992CBFE45EA3AC93C49E2CA619F2104 /* SingleAssignmentDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleAssignmentDisposable.swift; path = RxSwift/Disposables/SingleAssignmentDisposable.swift; sourceTree = "<group>"; };
 		BB195B954EC28F11B6D9CAE5D5A7CFDA /* RxRelay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxRelay.modulemap; sourceTree = "<group>"; };
@@ -736,7 +728,6 @@
 		C0E6DE53045E03BAB8FDA8AEE17B4264 /* RecursiveLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveLock.swift; path = Platform/RecursiveLock.swift; sourceTree = "<group>"; };
 		C12984741F53995ACCED5D0DE8C7F26B /* WithUnretained.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WithUnretained.swift; path = RxSwift/Observables/WithUnretained.swift; sourceTree = "<group>"; };
 		C24BB297C36A5C1ADF1FC40D7641CED4 /* SectionedViewDataSourceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionedViewDataSourceType.swift; path = RxCocoa/Common/SectionedViewDataSourceType.swift; sourceTree = "<group>"; };
-		C2DE6ED12597DDBB09915437F2E084A8 /* Pods-ShoppingCart-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShoppingCart-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C433FCAA8A08EA1E6745689CF89AE670 /* BlockingObservable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockingObservable.swift; path = RxBlocking/BlockingObservable.swift; sourceTree = "<group>"; };
 		C575E4FB15F685317D141AA416EC2121 /* AtomicInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AtomicInt.swift; path = Platform/AtomicInt.swift; sourceTree = "<group>"; };
 		C5BA1E235E9CE6F8F0E9FA35B17AE5A2 /* Infallible+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Infallible+Create.swift"; path = "RxSwift/Traits/Infallible/Infallible+Create.swift"; sourceTree = "<group>"; };
@@ -765,9 +756,8 @@
 		DE10EFD0C34F7D55055BFDF5B0626294 /* InfiniteSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteSequence.swift; path = Platform/DataStructures/InfiniteSequence.swift; sourceTree = "<group>"; };
 		DEBD8C71F532635155B226351AC8D786 /* Infallible+Zip+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Infallible+Zip+arity.swift"; path = "RxSwift/Traits/Infallible/Infallible+Zip+arity.swift"; sourceTree = "<group>"; };
 		DFB8FF8850C99A88F30CC0569F27DB47 /* ObservableConvertibleType+Infallible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableConvertibleType+Infallible.swift"; path = "RxSwift/Traits/Infallible/ObservableConvertibleType+Infallible.swift"; sourceTree = "<group>"; };
-		DFD08D129A2C3886E4B57AE6D891C10C /* Pods-ShoppingCart-ShoppingCartUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShoppingCart-ShoppingCartUITests-umbrella.h"; sourceTree = "<group>"; };
 		E0E60B9AF12EAE1CE3DE60BDACB9B6A1 /* ControlProperty+Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ControlProperty+Driver.swift"; path = "RxCocoa/Traits/Driver/ControlProperty+Driver.swift"; sourceTree = "<group>"; };
-		E1C3941ADED0210057AE8231705DACAC /* Pods-ShoppingCartTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShoppingCartTests.modulemap"; sourceTree = "<group>"; };
+		E200796DA6D383D6A718F876010FACC2 /* Pods-ShoppingCartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShoppingCartTests.release.xcconfig"; sourceTree = "<group>"; };
 		E2AAF5A7BE7B09AF56274BC8662C154B /* SynchronizedUnsubscribeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedUnsubscribeType.swift; path = RxSwift/Concurrency/SynchronizedUnsubscribeType.swift; sourceTree = "<group>"; };
 		E4500D2236276AE3A1B867D950CD0797 /* RxWKNavigationDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxWKNavigationDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxWKNavigationDelegateProxy.swift; sourceTree = "<group>"; };
 		E48D4E3BEFE5D8F5A21ED4193AFFBC53 /* ObservableType+PrimitiveSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableType+PrimitiveSequence.swift"; path = "RxSwift/Traits/PrimitiveSequence/ObservableType+PrimitiveSequence.swift"; sourceTree = "<group>"; };
@@ -780,7 +770,6 @@
 		EB560203283881363540DEDBD9AF9927 /* Bag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = Platform/DataStructures/Bag.swift; sourceTree = "<group>"; };
 		ECE164662A88FF5C30EB9CB7CC0AE0F0 /* ScheduledItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledItem.swift; path = RxSwift/Schedulers/Internal/ScheduledItem.swift; sourceTree = "<group>"; };
 		ED14C25068725D57D63D26EFA8BB4B87 /* DisposeBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBase.swift; path = RxSwift/Disposables/DisposeBase.swift; sourceTree = "<group>"; };
-		ED57AE0323AF24D133D966D290166913 /* Pods_ShoppingCart_ShoppingCartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ShoppingCart_ShoppingCartUITests.framework; path = "Pods-ShoppingCart-ShoppingCartUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE367C8410162CB114026F799BA201D5 /* Maybe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Maybe.swift; path = RxSwift/Traits/PrimitiveSequence/Maybe.swift; sourceTree = "<group>"; };
 		EED28D14A7AF2287DEC2F2065CB1A598 /* _RXDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _RXDelegateProxy.h; path = RxCocoa/Runtime/include/_RXDelegateProxy.h; sourceTree = "<group>"; };
 		EEE454B29D1C05FB955A976A874A091F /* Platform.Darwin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Darwin.swift; path = Platform/Platform.Darwin.swift; sourceTree = "<group>"; };
@@ -795,9 +784,9 @@
 		F3C1F166100EA86936D292026B211883 /* RxTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxTest.modulemap; sourceTree = "<group>"; };
 		F3D206B8D014600340DD63472C703643 /* TestScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestScheduler.swift; path = RxTest/Schedulers/TestScheduler.swift; sourceTree = "<group>"; };
 		F41849C6FF3CE4D199D398A169D0830A /* WithLatestFrom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WithLatestFrom.swift; path = RxSwift/Observables/WithLatestFrom.swift; sourceTree = "<group>"; };
-		F448E53F847098111C19660421DDC05D /* Pods-ShoppingCart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShoppingCart-dummy.m"; sourceTree = "<group>"; };
 		F44EA2DA70C164816DFBDDD341874910 /* PrimitiveSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrimitiveSequence.swift; path = RxSwift/Traits/PrimitiveSequence/PrimitiveSequence.swift; sourceTree = "<group>"; };
 		F4D6654B9086ECAA6D70C61991C10A9B /* RxSearchControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxSearchControllerDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxSearchControllerDelegateProxy.swift; sourceTree = "<group>"; };
+		F69C35A941FA0DE70555E67AE301E857 /* Pods-ShoppingCart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShoppingCart.release.xcconfig"; sourceTree = "<group>"; };
 		F6DD196B2A8FB914574F056062041A09 /* SynchronizedDisposeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedDisposeType.swift; path = RxSwift/Concurrency/SynchronizedDisposeType.swift; sourceTree = "<group>"; };
 		F71F962F8766FFD0FBFF9D76EB46605B /* RxTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxTest.debug.xcconfig; sourceTree = "<group>"; };
 		F7CEC43EF6DF14422FC8B3EED01CE799 /* UIScrollView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Rx.swift"; path = "RxCocoa/iOS/UIScrollView+Rx.swift"; sourceTree = "<group>"; };
@@ -805,7 +794,6 @@
 		F91E8439CE70A74C5D1CC0D88BA760A6 /* Recorded.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Recorded.swift; path = RxTest/Recorded.swift; sourceTree = "<group>"; };
 		F96AB518857C4150F3AB0783DC6C29E4 /* Recorded+Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Recorded+Event.swift"; path = "RxTest/Recorded+Event.swift"; sourceTree = "<group>"; };
 		F9D8CDACC0BE4B51279991A401138C9E /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = RxSwift/Observables/Error.swift; sourceTree = "<group>"; };
-		FA157D7F6114121797364C68600ECCEF /* Pods-ShoppingCart-ShoppingCartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShoppingCart-ShoppingCartUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FA73FE505D8DEF3B9CC39875B0238ACE /* ItemEvents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemEvents.swift; path = RxCocoa/iOS/Events/ItemEvents.swift; sourceTree = "<group>"; };
 		FB7182F8AA3344482057CC4039170A33 /* RxRelay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxRelay-Info.plist"; sourceTree = "<group>"; };
 		FC8432E7A64B09D34357E5FF4E24DA1A /* Bag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = Platform/DataStructures/Bag.swift; sourceTree = "<group>"; };
@@ -818,19 +806,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		287C9711C223C0B29E201DCBBBC05C82 /* Frameworks */ = {
+		1DB7B8ED9B9E983651BD1554FB200364 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E7401AA995034C7A7A229CE8BBC5828 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		33F501E36A6DF89D3724D7D1B87F3C19 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86085C6BDD0A154B9F7EA2B1D413700D /* Foundation.framework in Frameworks */,
+				152198B616C8AE0D508FB9919F543299 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -840,6 +820,14 @@
 			files = (
 				6695A020D41810917F26E73E6984420F /* Foundation.framework in Frameworks */,
 				4B552609516064140427EEB49FA25216 /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFBF0597E336AEDA84C54F920406D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CDF5B92CE95ACB883D6E204FC0375D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -870,14 +858,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		813CAE4831DAA5FE85C6381AE1FD4D7B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E03B8B329330B42DDA7A36AB6FC6AB3F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F2A82F44CAD2241E8981301C897B3E69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -891,16 +871,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D7279C82CD45EFA1C94E0297326F4E7 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9684E8065A73BB387807C6A7F952C561 /* Pods-ShoppingCart */,
-				514D8F0C7F8E91F14746EB4F1472CCFF /* Pods-ShoppingCart-ShoppingCartUITests */,
-				4BEF1623DA0D7C892FA83A9CB2171059 /* Pods-ShoppingCartTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		3401F2675E004E0E972B94FCBAC8D1AE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -930,38 +900,21 @@
 			path = RxRelay;
 			sourceTree = "<group>";
 		};
-		4BEF1623DA0D7C892FA83A9CB2171059 /* Pods-ShoppingCartTests */ = {
+		587C317EEFFA43EBBA484C27D93541D9 /* Pods-ShoppingCartTests */ = {
 			isa = PBXGroup;
 			children = (
-				E1C3941ADED0210057AE8231705DACAC /* Pods-ShoppingCartTests.modulemap */,
-				2DD3AC2AFFFD5674221DAD3AD49A37ED /* Pods-ShoppingCartTests-acknowledgements.markdown */,
-				94534AA296EA568E45C88BEE13A35DC1 /* Pods-ShoppingCartTests-acknowledgements.plist */,
-				6E0FFB91B6F52C8DE8C944A706B9A2EA /* Pods-ShoppingCartTests-dummy.m */,
-				70AFEFB27AF69E9A4DFBECF4A49B2202 /* Pods-ShoppingCartTests-frameworks.sh */,
-				1AE2749E583D929D77249C3E1E16F848 /* Pods-ShoppingCartTests-Info.plist */,
-				B7645853B1396BC989CEDF219F01E254 /* Pods-ShoppingCartTests-umbrella.h */,
-				476A67C75CE46F67569ABCF680974CA5 /* Pods-ShoppingCartTests.debug.xcconfig */,
-				46AA6739C0D673B31AA328905EB774FE /* Pods-ShoppingCartTests.release.xcconfig */,
+				3BEB9DCC6772BA794E82DA9106306F9D /* Pods-ShoppingCartTests.modulemap */,
+				4888105BF3F5C79A8701675C5D416AF8 /* Pods-ShoppingCartTests-acknowledgements.markdown */,
+				7BAA1067A06E4242169F155D5CF1E713 /* Pods-ShoppingCartTests-acknowledgements.plist */,
+				1DD5B3EAD975968BADCFB8F126F92481 /* Pods-ShoppingCartTests-dummy.m */,
+				5C35ACF9592FAF160BD1051DB4DB1E19 /* Pods-ShoppingCartTests-frameworks.sh */,
+				9CCEEBD1B2C38EF7385546CA1E495604 /* Pods-ShoppingCartTests-Info.plist */,
+				38E2D28E478E8764ABAA9926C55EDB30 /* Pods-ShoppingCartTests-umbrella.h */,
+				0B5491C108C3C0BF3B53E0378B78BEA8 /* Pods-ShoppingCartTests.debug.xcconfig */,
+				E200796DA6D383D6A718F876010FACC2 /* Pods-ShoppingCartTests.release.xcconfig */,
 			);
 			name = "Pods-ShoppingCartTests";
 			path = "Target Support Files/Pods-ShoppingCartTests";
-			sourceTree = "<group>";
-		};
-		514D8F0C7F8E91F14746EB4F1472CCFF /* Pods-ShoppingCart-ShoppingCartUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AE385E5AA076F413EE780A1E4D716F15 /* Pods-ShoppingCart-ShoppingCartUITests.modulemap */,
-				47D463E70F995288F7FEEFAB207F0EE6 /* Pods-ShoppingCart-ShoppingCartUITests-acknowledgements.markdown */,
-				779757CD4C42827F675E13E52B5A1C4C /* Pods-ShoppingCart-ShoppingCartUITests-acknowledgements.plist */,
-				2FAB4A831567326A500279AA0D75FB7D /* Pods-ShoppingCart-ShoppingCartUITests-dummy.m */,
-				B75AE2D9E2AF9F946BA4C4F2D253F4EA /* Pods-ShoppingCart-ShoppingCartUITests-frameworks.sh */,
-				25183E06BF34464EA6D077E84777385E /* Pods-ShoppingCart-ShoppingCartUITests-Info.plist */,
-				DFD08D129A2C3886E4B57AE6D891C10C /* Pods-ShoppingCart-ShoppingCartUITests-umbrella.h */,
-				307D10AB985C9297F6F17D81075025D8 /* Pods-ShoppingCart-ShoppingCartUITests.debug.xcconfig */,
-				FA157D7F6114121797364C68600ECCEF /* Pods-ShoppingCart-ShoppingCartUITests.release.xcconfig */,
-			);
-			name = "Pods-ShoppingCart-ShoppingCartUITests";
-			path = "Target Support Files/Pods-ShoppingCart-ShoppingCartUITests";
 			sourceTree = "<group>";
 		};
 		7D3D28063C782C67A371102D63AB0771 /* Pods */ = {
@@ -1166,22 +1119,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9684E8065A73BB387807C6A7F952C561 /* Pods-ShoppingCart */ = {
-			isa = PBXGroup;
-			children = (
-				0286804606EE1B5CDC3FE595BEEDC629 /* Pods-ShoppingCart.modulemap */,
-				C2DE6ED12597DDBB09915437F2E084A8 /* Pods-ShoppingCart-acknowledgements.markdown */,
-				644991957AA78199DE236923DF58BD62 /* Pods-ShoppingCart-acknowledgements.plist */,
-				F448E53F847098111C19660421DDC05D /* Pods-ShoppingCart-dummy.m */,
-				409C3AAAA2EE30F7E6C358F267E2F961 /* Pods-ShoppingCart-Info.plist */,
-				4214422B86A9062589DD2A7DE8D1A236 /* Pods-ShoppingCart-umbrella.h */,
-				43D48D0B5EED7E2115206B67768F8CE6 /* Pods-ShoppingCart.debug.xcconfig */,
-				7917BC39A8D4CC2DF16B1D5CBCEECBB7 /* Pods-ShoppingCart.release.xcconfig */,
-			);
-			name = "Pods-ShoppingCart";
-			path = "Target Support Files/Pods-ShoppingCart";
-			sourceTree = "<group>";
-		};
 		9882A9F0EB3171C67A746EEEF4C6597F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1384,16 +1321,32 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				A6EEDDCEDADF3C175A8BCD2F569758F4 /* Frameworks */,
 				7D3D28063C782C67A371102D63AB0771 /* Pods */,
-				F74DE01547D35602AB180C299F7761B6 /* Products */,
-				0D7279C82CD45EFA1C94E0297326F4E7 /* Targets Support Files */,
+				EC92C38989AFDB24BF69511D6A8A9CBF /* Products */,
+				EE293938EFCC47E66D803507414E8E03 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F74DE01547D35602AB180C299F7761B6 /* Products */ = {
+		DF15B078FAC457EB4C0D97C295F2FE49 /* Pods-ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				A292FD587500331306BBEF08A715BA0C /* Pods-ShoppingCart.modulemap */,
+				517FDDC5E3A8DC3415B92B10B7B0C690 /* Pods-ShoppingCart-acknowledgements.markdown */,
+				7E7FAFC154F2233997C25D89AD8B32ED /* Pods-ShoppingCart-acknowledgements.plist */,
+				5A0522EB3B21C912B8B0B0343A27D9B8 /* Pods-ShoppingCart-dummy.m */,
+				21F9A3F16822EB3BF4B95156209EE38E /* Pods-ShoppingCart-frameworks.sh */,
+				9D38C6253254CE99F8870262AAE946F0 /* Pods-ShoppingCart-Info.plist */,
+				4321F9C4F240ED21912D3043C17451AA /* Pods-ShoppingCart-umbrella.h */,
+				07A7A124E4F811921B71D65FC9081460 /* Pods-ShoppingCart.debug.xcconfig */,
+				F69C35A941FA0DE70555E67AE301E857 /* Pods-ShoppingCart.release.xcconfig */,
+			);
+			name = "Pods-ShoppingCart";
+			path = "Target Support Files/Pods-ShoppingCart";
+			sourceTree = "<group>";
+		};
+		EC92C38989AFDB24BF69511D6A8A9CBF /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				890B6DE54C1C8425327D9C5E7943DEE6 /* Pods_ShoppingCart.framework */,
-				ED57AE0323AF24D133D966D290166913 /* Pods_ShoppingCart_ShoppingCartUITests.framework */,
 				8E82875D599D05A83A9771A634241DF6 /* Pods_ShoppingCartTests.framework */,
 				25F63A531105CD4E1E4CCF5B918C5494 /* RxBlocking.framework */,
 				BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa.framework */,
@@ -1402,6 +1355,15 @@
 				031893FD3D882E436EC541DF783B1276 /* RxTest.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EE293938EFCC47E66D803507414E8E03 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF15B078FAC457EB4C0D97C295F2FE49 /* Pods-ShoppingCart */,
+				587C317EEFFA43EBBA484C27D93541D9 /* Pods-ShoppingCartTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		FB66BA6224C85AD2D6BDEC6A51682518 /* RxTest */ = {
@@ -1438,11 +1400,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3F75F78C7B7903668FA5B9A2AE3DCB77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C817351F3D6F3CAF5194B154D2A624A3 /* Pods-ShoppingCartTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43AF7F9B87A9FBD0708DEE6F8C05437E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0FF926B040BE12811E896E7B4132696C /* RxTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60861058026C29FFA7E7A088A900C96E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568E836A8D055736945CA50E7863F146 /* Pods-ShoppingCart-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1468,35 +1446,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93D5B924D30A0DD8D2952EF0199BAA23 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F330112AA7ADDC3CDA7091AB3A56F42B /* Pods-ShoppingCart-ShoppingCartUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		95C5FE25E5A0E3374F2D5032521CF03A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5585BE94DA8ED56E174D33FF5F3ECBD0 /* Pods-ShoppingCart-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9FDA3B15B299CEA34F9C3E8C6B93F33F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4C3B5A8DA08F18DFE9C10D2BDA7D11A1 /* RxBlocking-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCE1134ED137BD10C989FB1E7F1A3F57 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E7CA70F582F433399E4BC6A00FBFD69 /* Pods-ShoppingCartTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1530,39 +1484,21 @@
 			productReference = FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		492D1FFE97FAA64D5760C9C947BC198D /* Pods-ShoppingCart-ShoppingCartUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4832C97D4B70EB8C1259946AF8CD13CA /* Build configuration list for PBXNativeTarget "Pods-ShoppingCart-ShoppingCartUITests" */;
-			buildPhases = (
-				93D5B924D30A0DD8D2952EF0199BAA23 /* Headers */,
-				4F6477157224B6641D235A5D826187AB /* Sources */,
-				33F501E36A6DF89D3724D7D1B87F3C19 /* Frameworks */,
-				2DE89D9B7EF566DF7AAA369919523326 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				76E790DF5A9EC1CEDC5C339F10F7F72F /* PBXTargetDependency */,
-				D1390D1D585B2A1BE3827BFA9D72BD09 /* PBXTargetDependency */,
-				DF31FA899E7E77B7102D141F4C09C2F0 /* PBXTargetDependency */,
-			);
-			name = "Pods-ShoppingCart-ShoppingCartUITests";
-			productName = "Pods-ShoppingCart-ShoppingCartUITests";
-			productReference = ED57AE0323AF24D133D966D290166913 /* Pods_ShoppingCart_ShoppingCartUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		4E01604714FE1299B4E880A5A8306FB6 /* Pods-ShoppingCart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3BCF0FE6946DEEC3709F0B0F209E5A1 /* Build configuration list for PBXNativeTarget "Pods-ShoppingCart" */;
+			buildConfigurationList = DA76E8F23F9A09C0E8C0A67067E3011E /* Build configuration list for PBXNativeTarget "Pods-ShoppingCart" */;
 			buildPhases = (
-				95C5FE25E5A0E3374F2D5032521CF03A /* Headers */,
-				8E30DE7623D232EA3B8AD26626E0E444 /* Sources */,
-				813CAE4831DAA5FE85C6381AE1FD4D7B /* Frameworks */,
-				661F66119DB0B6B50F4DA16483BE51A3 /* Resources */,
+				60861058026C29FFA7E7A088A900C96E /* Headers */,
+				81B3428BED7995AA4206A8CBD0DEC407 /* Sources */,
+				3FFBF0597E336AEDA84C54F920406D65 /* Frameworks */,
+				8134FFA6DF86833B3D7F9A4C2C8B147E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B2FE68DB0943566BE96F11CD582AAEF4 /* PBXTargetDependency */,
+				24A9F72E68D43B838A121CBD4BCDCFAF /* PBXTargetDependency */,
+				503FEE87A1C31F043487502D3A94EA6B /* PBXTargetDependency */,
 			);
 			name = "Pods-ShoppingCart";
 			productName = "Pods-ShoppingCart";
@@ -1591,20 +1527,20 @@
 		};
 		C504AF4BDC38002ACBD4598C75A4CA20 /* Pods-ShoppingCartTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BE9DAAAFF4CB24B25800F358DE7ADE0 /* Build configuration list for PBXNativeTarget "Pods-ShoppingCartTests" */;
+			buildConfigurationList = B89B296FFC5BA8BB536E14273622AC6B /* Build configuration list for PBXNativeTarget "Pods-ShoppingCartTests" */;
 			buildPhases = (
-				CCE1134ED137BD10C989FB1E7F1A3F57 /* Headers */,
-				05D54A7ADCC599B9004AEFF7FDE19B06 /* Sources */,
-				287C9711C223C0B29E201DCBBBC05C82 /* Frameworks */,
-				6948624B8C12D964880A52BF1F9CD9AB /* Resources */,
+				3F75F78C7B7903668FA5B9A2AE3DCB77 /* Headers */,
+				D364579BED03A4E8BABE670E5CA4D9F4 /* Sources */,
+				1DB7B8ED9B9E983651BD1554FB200364 /* Frameworks */,
+				D16819C1E1E41E5FC6BDA7A98593F591 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9450E9C9C3BA4AAC681D0BEC96EA58F4 /* PBXTargetDependency */,
-				D4DD61B4B3D19883AC855BF841A9D8A4 /* PBXTargetDependency */,
-				B954F06DC1FC45D51F0324072A595D8E /* PBXTargetDependency */,
-				7BC3DD045FB8151B0CD2F79BAF5B9290 /* PBXTargetDependency */,
+				C623E9E9BADED7FFA1B01ED8489D4C6E /* PBXTargetDependency */,
+				8F24FE1EA26BFE6A975FEC1605688E4C /* PBXTargetDependency */,
+				C35E53FCC000BD4EE1C9E4A6D3F7BCF6 /* PBXTargetDependency */,
+				A87FD71DFA70BC7FEB88F05A896F44EA /* PBXTargetDependency */,
 			);
 			name = "Pods-ShoppingCartTests";
 			productName = "Pods-ShoppingCartTests";
@@ -1677,7 +1613,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1685,12 +1621,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F74DE01547D35602AB180C299F7761B6 /* Products */;
+			productRefGroup = EC92C38989AFDB24BF69511D6A8A9CBF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4E01604714FE1299B4E880A5A8306FB6 /* Pods-ShoppingCart */,
-				492D1FFE97FAA64D5760C9C947BC198D /* Pods-ShoppingCart-ShoppingCartUITests */,
 				C504AF4BDC38002ACBD4598C75A4CA20 /* Pods-ShoppingCartTests */,
 				F243B36381C0CE83CCFF789AC38F0D36 /* RxBlocking */,
 				7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6 /* RxCocoa */,
@@ -1702,13 +1637,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2DE89D9B7EF566DF7AAA369919523326 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		57E26FC411EEFF57F2F4B6D6ECD48889 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1723,14 +1651,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		661F66119DB0B6B50F4DA16483BE51A3 /* Resources */ = {
+		8134FFA6DF86833B3D7F9A4C2C8B147E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6948624B8C12D964880A52BF1F9CD9AB /* Resources */ = {
+		D16819C1E1E41E5FC6BDA7A98593F591 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1761,14 +1689,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05D54A7ADCC599B9004AEFF7FDE19B06 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25AD9566F0C91C911DDD0797EC64E392 /* Pods-ShoppingCartTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		07CEE58A07EC062E88FC0EB25B7A3E1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1934,14 +1854,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F6477157224B6641D235A5D826187AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39E8A23C924756181D541CFC9F20653F /* Pods-ShoppingCart-ShoppingCartUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		67A2A123D763751201FAB07595AA8BF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1964,11 +1876,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E30DE7623D232EA3B8AD26626E0E444 /* Sources */ = {
+		81B3428BED7995AA4206A8CBD0DEC407 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71B0EC572A2D4D77CB9C4B6D6A75E652 /* Pods-ShoppingCart-dummy.m in Sources */,
+				6CD76B34A416F89FC3A520B3D494909F /* Pods-ShoppingCart-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2083,6 +1995,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D364579BED03A4E8BABE670E5CA4D9F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C139B176E654621A9E0F13F9985F01 /* Pods-ShoppingCartTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE8AEB24E697B43DEAED3C7F33FB5235 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2129,53 +2049,53 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		24A9F72E68D43B838A121CBD4BCDCFAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxRelay;
+			target = 4622BFEF3DC16E8BD15EEFC30D4D0084 /* RxRelay */;
+			targetProxy = 4555C81BED4976030D28F89B0D8D565F /* PBXContainerItemProxy */;
+		};
 		40E52F390201FBB5897774991C49A6E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RxSwift;
 			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
 			targetProxy = DA8894B48295BC7B567335FAAB6E7E89 /* PBXContainerItemProxy */;
 		};
-		76E790DF5A9EC1CEDC5C339F10F7F72F /* PBXTargetDependency */ = {
+		503FEE87A1C31F043487502D3A94EA6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxSwift;
+			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
+			targetProxy = ACF2E19486E73318BD708CFFB54ECF71 /* PBXContainerItemProxy */;
+		};
+		8F24FE1EA26BFE6A975FEC1605688E4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RxBlocking;
 			target = F243B36381C0CE83CCFF789AC38F0D36 /* RxBlocking */;
-			targetProxy = 46568DC88D4059F12268157A107F11B7 /* PBXContainerItemProxy */;
+			targetProxy = 15BAB87E072690857597300517E9ED70 /* PBXContainerItemProxy */;
 		};
-		7BC3DD045FB8151B0CD2F79BAF5B9290 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RxSwift;
-			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
-			targetProxy = CEC1FD3817902B7C3233057D932D55D8 /* PBXContainerItemProxy */;
-		};
-		9450E9C9C3BA4AAC681D0BEC96EA58F4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ShoppingCart";
-			target = 4E01604714FE1299B4E880A5A8306FB6 /* Pods-ShoppingCart */;
-			targetProxy = 5573D406FEFC0FCD8184207D5828ED5D /* PBXContainerItemProxy */;
-		};
-		B954F06DC1FC45D51F0324072A595D8E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RxRelay;
-			target = 4622BFEF3DC16E8BD15EEFC30D4D0084 /* RxRelay */;
-			targetProxy = B505345090BA05E5636EBCB869108946 /* PBXContainerItemProxy */;
-		};
-		D1390D1D585B2A1BE3827BFA9D72BD09 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RxSwift;
-			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
-			targetProxy = E83918A4152BD6FA5DD8855C7169DE64 /* PBXContainerItemProxy */;
-		};
-		D4DD61B4B3D19883AC855BF841A9D8A4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RxCocoa;
-			target = 7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6 /* RxCocoa */;
-			targetProxy = 4053B0790F6F8D3890AC187D81FD9C41 /* PBXContainerItemProxy */;
-		};
-		DF31FA899E7E77B7102D141F4C09C2F0 /* PBXTargetDependency */ = {
+		A87FD71DFA70BC7FEB88F05A896F44EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RxTest;
 			target = C8D93C508E21FFD4EE60D335DD6C22E3 /* RxTest */;
-			targetProxy = 0714F812ED1938E0D5F2F38FDC230885 /* PBXContainerItemProxy */;
+			targetProxy = 24CA132DBAE03853805C5EF9BDFE2DD8 /* PBXContainerItemProxy */;
+		};
+		B2FE68DB0943566BE96F11CD582AAEF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxCocoa;
+			target = 7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6 /* RxCocoa */;
+			targetProxy = 4E63F3493901C5C6FAAAFDCAAA44F0B1 /* PBXContainerItemProxy */;
+		};
+		C35E53FCC000BD4EE1C9E4A6D3F7BCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxSwift;
+			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
+			targetProxy = 6B619208654A5D1625545DDF5D05C188 /* PBXContainerItemProxy */;
+		};
+		C623E9E9BADED7FFA1B01ED8489D4C6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ShoppingCart";
+			target = 4E01604714FE1299B4E880A5A8306FB6 /* Pods-ShoppingCart */;
+			targetProxy = C29916F45000D64259041292CC72A7EF /* PBXContainerItemProxy */;
 		};
 		ED700C655C31D00047B6EF40320A916D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2341,9 +2261,9 @@
 			};
 			name = Debug;
 		};
-		37D762EA4A584A8E6901D9B22AF5144D /* Release */ = {
+		3A341061D2D21A8963C36A2834771CFE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA157D7F6114121797364C68600ECCEF /* Pods-ShoppingCart-ShoppingCartUITests.release.xcconfig */;
+			baseConfigurationReference = 07A7A124E4F811921B71D65FC9081460 /* Pods-ShoppingCart.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2355,7 +2275,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ShoppingCart-ShoppingCartUITests/Pods-ShoppingCart-ShoppingCartUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShoppingCart/Pods-ShoppingCart-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2364,45 +2284,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ShoppingCart-ShoppingCartUITests/Pods-ShoppingCart-ShoppingCartUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3D5D4747A1A9AB844325D68CED84BD4A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 307D10AB985C9297F6F17D81075025D8 /* Pods-ShoppingCart-ShoppingCartUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ShoppingCart-ShoppingCartUITests/Pods-ShoppingCart-ShoppingCartUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ShoppingCart-ShoppingCartUITests/Pods-ShoppingCart-ShoppingCartUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ShoppingCart/Pods-ShoppingCart.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2451,81 +2333,6 @@
 			};
 			name = Release;
 		};
-		3DD74BB517C63C64518E16DDC0E8D829 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7917BC39A8D4CC2DF16B1D5CBCEECBB7 /* Pods-ShoppingCart.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ShoppingCart/Pods-ShoppingCart-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ShoppingCart/Pods-ShoppingCart.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4E7A21197F2DCDE0D1039AF64734F123 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43D48D0B5EED7E2115206B67768F8CE6 /* Pods-ShoppingCart.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ShoppingCart/Pods-ShoppingCart-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ShoppingCart/Pods-ShoppingCart.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		5913F54562BEE7816BB138F8C4D6AAF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E6220ED1E8E52CD3E97C34A20C179E9 /* RxTest.release.xcconfig */;
@@ -2554,6 +2361,44 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		615485BB78C10474F9614D7E7C2F3756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69C35A941FA0DE70555E67AE301E857 /* Pods-ShoppingCart.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShoppingCart/Pods-ShoppingCart-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShoppingCart/Pods-ShoppingCart.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2662,9 +2507,9 @@
 			};
 			name = Debug;
 		};
-		BD7B4FA5BB32DE86092028E237CF7503 /* Debug */ = {
+		C2C6E91B0A712BC778B1324B5C3AD80C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 476A67C75CE46F67569ABCF680974CA5 /* Pods-ShoppingCartTests.debug.xcconfig */;
+			baseConfigurationReference = 0B5491C108C3C0BF3B53E0378B78BEA8 /* Pods-ShoppingCartTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2796,9 +2641,9 @@
 			};
 			name = Release;
 		};
-		E228CEF67DF22B671F537636654D2D64 /* Release */ = {
+		DCF41EE7E356B048968A58AFD0CEC20B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46AA6739C0D673B31AA328905EB774FE /* Pods-ShoppingCartTests.release.xcconfig */;
+			baseConfigurationReference = E200796DA6D383D6A718F876010FACC2 /* Pods-ShoppingCartTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2914,29 +2759,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BE9DAAAFF4CB24B25800F358DE7ADE0 /* Build configuration list for PBXNativeTarget "Pods-ShoppingCartTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BD7B4FA5BB32DE86092028E237CF7503 /* Debug */,
-				E228CEF67DF22B671F537636654D2D64 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
 				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4832C97D4B70EB8C1259946AF8CD13CA /* Build configuration list for PBXNativeTarget "Pods-ShoppingCart-ShoppingCartUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D5D4747A1A9AB844325D68CED84BD4A /* Debug */,
-				37D762EA4A584A8E6901D9B22AF5144D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2959,6 +2786,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		B89B296FFC5BA8BB536E14273622AC6B /* Build configuration list for PBXNativeTarget "Pods-ShoppingCartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C6E91B0A712BC778B1324B5C3AD80C /* Debug */,
+				DCF41EE7E356B048968A58AFD0CEC20B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B9F85647046643CCB24A046F4834948D /* Build configuration list for PBXNativeTarget "RxSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2968,11 +2804,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3BCF0FE6946DEEC3709F0B0F209E5A1 /* Build configuration list for PBXNativeTarget "Pods-ShoppingCart" */ = {
+		DA76E8F23F9A09C0E8C0A67067E3011E /* Build configuration list for PBXNativeTarget "Pods-ShoppingCart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E7A21197F2DCDE0D1039AF64734F123 /* Debug */,
-				3DD74BB517C63C64518E16DDC0E8D829 /* Release */,
+				3A341061D2D21A8963C36A2834771CFE /* Debug */,
+				615485BB78C10474F9614D7E7C2F3756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

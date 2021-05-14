@@ -6,18 +6,16 @@ target 'ShoppingCart' do
   use_frameworks!
 
   # Pods for ShoppingCart
-
+    pod 'RxSwift', '6.2.0'
+    pod 'RxCocoa', '6.2.0'
   target 'ShoppingCartTests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'RxSwift', '6.2.0'
-    pod 'RxCocoa', '6.2.0'
-  end
-
-  target 'ShoppingCartUITests' do
-    # Pods for testing
     pod 'RxBlocking', '6.2.0'
     pod 'RxTest', '6.2.0'
+
   end
+
+
 
 end
