@@ -10,6 +10,7 @@
 		4749211B29ABA1168E4AEB3A /* Pods_ShoppingCart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0249EC8A015AC87ED1E763FF /* Pods_ShoppingCart.framework */; };
 		B113B82471DAC226348D8B24 /* Pods_ShoppingCartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D794945C7A2A43376709C9CA /* Pods_ShoppingCartTests.framework */; };
 		BB5460722652AFDA00ED422F /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5460712652AFDA00ED422F /* ListPresenter.swift */; };
+		BB5460742652BF9400ED422F /* ListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5460732652BF9400ED422F /* ListWireFrame.swift */; };
 		BB67608B264EC684009ECF02 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB67608A264EC684009ECF02 /* CoreDataStore.swift */; };
 		BB67608D264EC76E009ECF02 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB67608C264EC76E009ECF02 /* Cart.swift */; };
 		BB67608F264EC874009ECF02 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB67608E264EC874009ECF02 /* AppDependencies.swift */; };
@@ -53,6 +54,7 @@
 		4F0DB2B5D847FD8DF03CB24D /* Pods-ShoppingCart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingCart.release.xcconfig"; path = "Target Support Files/Pods-ShoppingCart/Pods-ShoppingCart.release.xcconfig"; sourceTree = "<group>"; };
 		829E78158A55874085A0BC2A /* Pods-ShoppingCartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingCartTests.debug.xcconfig"; path = "Target Support Files/Pods-ShoppingCartTests/Pods-ShoppingCartTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB5460712652AFDA00ED422F /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		BB5460732652BF9400ED422F /* ListWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWireFrame.swift; sourceTree = "<group>"; };
 		BB67608A264EC684009ECF02 /* CoreDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
 		BB67608C264EC76E009ECF02 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		BB67608E264EC874009ECF02 /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				BBFF54CD2652A0740098501D /* ListViewController.swift */,
+				BB5460732652BF9400ED422F /* ListWireFrame.swift */,
 				BB5460712652AFDA00ED422F /* ListPresenter.swift */,
 				BBFF54CF2652A0B50098501D /* ListCell.swift */,
 				BBFF54D12652A0EA0098501D /* TotalCell.swift */,
@@ -437,6 +440,7 @@
 				BB6D3184264F150200447C92 /* Model.swift in Sources */,
 				BBE5262E264DCEB800DFC089 /* ViewController.swift in Sources */,
 				BB67608D264EC76E009ECF02 /* Cart.swift in Sources */,
+				BB5460742652BF9400ED422F /* ListWireFrame.swift in Sources */,
 				BB67608F264EC874009ECF02 /* AppDependencies.swift in Sources */,
 				BBE5262A264DCEB800DFC089 /* AppDelegate.swift in Sources */,
 				BBE5262C264DCEB800DFC089 /* SceneDelegate.swift in Sources */,
