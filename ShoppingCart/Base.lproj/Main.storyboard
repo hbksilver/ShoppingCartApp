@@ -37,11 +37,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationWidth="10" reuseIdentifier="ListCell" id="l7S-bn-det" userLabel="ListCell" customClass="ListCell" customModule="ShoppingCart" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationWidth="10" reuseIdentifier="ListCell" rowHeight="55" id="l7S-bn-det" userLabel="ListCell" customClass="ListCell" customModule="ShoppingCart" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="55"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="l7S-bn-det" id="SBI-9s-Kdz">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="55"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Z6F-oa-cVq" userLabel="Product Image View">
@@ -55,7 +55,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p7B-TM-L09" userLabel="Price Label">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p7B-TM-L09" userLabel="Price Label">
                                                     <rect key="frame" x="241" y="19" width="153" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -70,14 +70,14 @@
                                             <outlet property="productImageView" destination="Z6F-oa-cVq" id="28w-dw-I8o"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationWidth="10" reuseIdentifier="TotalCell" rowHeight="60" id="Dkv-8e-PTf" userLabel="TotalCell" customClass="TotalCell" customModule="ShoppingCart" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="68" width="414" height="60"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationWidth="10" reuseIdentifier="TotalCell" rowHeight="70" id="Dkv-8e-PTf" userLabel="TotalCell" customClass="TotalCell" customModule="ShoppingCart" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="79.5" width="414" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Dkv-8e-PTf" id="VHl-TE-Wzo">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xNk-T3-ZIW" userLabel="Total Price Label">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xNk-T3-ZIW" userLabel="Total Price Label">
                                                     <rect key="frame" x="257" y="0.0" width="147" height="60"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -140,21 +140,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="aVM-um-cWF" userLabel="Add To Cart Button">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="aVM-um-cWF" userLabel="Add To Cart Button">
                                 <rect key="frame" x="170" y="345" width="72" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" image="YES" playsSound="YES"/>
                                 </accessibility>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Buy">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <state key="normal" title="Buy"/>
+                                <state key="highlighted" backgroundImage="dollarsign.square" catalog="system"/>
                                 <connections>
                                     <action selector="addToCartTapped:" destination="wrK-pI-ILo" eventType="touchUpInside" id="zfb-je-Nrp"/>
                                 </connections>
@@ -176,6 +170,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="dollarsign.square" catalog="system" width="128" height="114"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
