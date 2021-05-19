@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/hbarak/Downloads/EIT/ShoppingCart/ShoppingCart/Model.swift">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/hbarak/Downloads/EIT/ShoppingCart/ShoppingCart/Constants.swift">
-   </FileRef>
-   <FileRef
       location = "group:ShoppingCart.xcodeproj">
    </FileRef>
    <FileRef

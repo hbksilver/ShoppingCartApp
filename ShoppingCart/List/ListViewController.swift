@@ -5,14 +5,6 @@
 //  Created by hassan Baraka on 5/17/21.
 //
 
-//
-//  ListViewController.swift
-//  RetailStorePractice
-//
-//  Created by Juan carlos De la parra on 01/03/21.
-//
-
-
 import Foundation
 import UIKit
 import RxSwift
@@ -33,7 +25,8 @@ class ListViewController : UIViewController, UITableViewDelegate, Cart {
     var dataArray: BehaviorRelay<[SectionModel<NSNumber, Product>]> = BehaviorRelay(value: [])
     var dataVariableArray: BehaviorRelay<[SectionModel<NSNumber, Product>]> = BehaviorRelay(value: [])
      
-    @IBOutlet weak var tableView : UITableView!
+    @IBOutlet weak var tableView: UITableView!
+    //@IBOutlet weak var tableView : UITableView!
     let disposeBag = DisposeBag()
     
     override func viewDidLoad() {

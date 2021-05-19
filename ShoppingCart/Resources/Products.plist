@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Products</key>
+	<array>
+		<dict>
+			<key>productId</key>
+			<integer>1</integer>
+			<key>name</key>
+			<string>Microwave Oven</string>
+			<key>categoryId</key>
+			<integer>1</integer>
+			<key>price</key>
+			<integer>10000</integer>
+			<key>imageName</key>
+			<string>microwave-oven</string>
+		</dict>
+		<dict>
+			<key>productId</key>
+			<integer>2</integer>
+			<key>name</key>
+			<string>Television</string>
+			<key>categoryId</key>
+			<integer>1</integer>
+			<key>price</key>
+			<real>8000</real>
+			<key>imageName</key>
+			<string>tv</string>
+		</dict>
+		<dict>
+			<key>productId</key>
+			<integer>3</integer>
+			<key>name</key>
+			<string>Vacuum Cleaner</string>
+			<key>categoryId</key>
+			<integer>1</integer>
+			<key>price</key>
+			<real>6000</real>
+			<key>imageName</key>
+			<string>vaccum-cleaner</string>
+		</dict>
+		<dict>
+			<key>productId</key>
+			<integer>4</integer>
+			<key>name</key>
+			<string>Table</string>
+			<key>categoryId</key>
+			<integer>2</integer>
+			<key>price</key>
+			<real>1000</real>
+			<key>imageName</key>
+			<string>table</string>
+		</dict>
+		<dict>
+			<key>productId</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string>Chair</string>
+			<key>categoryId</key>
+			<integer>2</integer>
+			<key>price</key>
+			<real>4000</real>
+			<key>imageName</key>
+			<string>chair</string>
+		</dict>
+		<dict>
+			<key>productId</key>
+			<integer>6</integer>
+			<key>name</key>
+			<string>Almirah</string>
+			<key>categoryId</key>
+			<integer>2</integer>
+			<key>price</key>
+			<real>2000</real>
+			<key>imageName</key>
+			<string>almirah</string>
+		</dict>
+	</array>
+</dict>
+</plist>

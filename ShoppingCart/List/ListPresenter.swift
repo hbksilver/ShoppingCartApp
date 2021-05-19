@@ -5,7 +5,12 @@
 //  Created by hassan Baraka on 5/17/21.
 //
 
-
+//
+//  ListPresenter.swift
+//  RetailStorePractice
+//
+//  Created by Juan carlos De la parra on 01/03/21.
+//
 
 import Foundation
 import UIKit
@@ -84,3 +89,4 @@ class ListPresenter {
     
 
 }
+

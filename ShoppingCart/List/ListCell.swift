@@ -12,10 +12,13 @@ class ListCell: UITableViewCell {
     
     static let Identifier = "ListCell"
     
-    @IBOutlet internal var productImageView: UIImageView!
-    @IBOutlet private var nameLabel: UILabel!
-    @IBOutlet private var priceLabel: UILabel!
-   
+    @IBOutlet weak var productImageView: UIImageView!
+    //@IBOutlet internal var productImageView: UIImageView!
+    //@IBOutlet private var nameLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    //@IBOutlet private var priceLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    
     var screenType = ScreenType.List
     
     func configureWithProduct(product: Product) {
